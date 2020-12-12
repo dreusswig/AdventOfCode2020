@@ -11,6 +11,8 @@ for i, num1 in enumerate(input):
     if done == 1:
         break
 
+validate = num1+num2
 result = num1*num2
 
+print(str(num1) + ' + ' + str(num2) + ' = ' + str(validate))
 print(str(num1) + ' * ' + str(num2) + ' = ' + str(result))
